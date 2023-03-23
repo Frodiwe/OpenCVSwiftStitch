@@ -55,8 +55,10 @@ Tested with XCode 4.5.2 -> 6.3 for iOS 5.1 upwards
 
 Provides a partial answer to: [Libraries to capture panoramas in iOS 6](http://stackoverflow.com/questions/14062932/libraries-to-capture-panorama-in-ios-6/14064788#14064788) (Stack Overflow)
 
-__OpenCV Versions__   
+__OpenCV Versions__
+
 _OpenCV 4.7_
+
 The original repo used OpenCV 4.3 however there is newer version 4.7 which is used in this fork
 The podfile installs OpenCV 4.7
 
@@ -65,6 +67,7 @@ __XCode 12__
 Project is now updated for Swift 5.0 and XCode 12. For backwards compatibility checkout the 2.0 / 2.1 branches, 3.0 /4.0 releases or refer to the Objective-C version v1.0.
 
 __Comparisons__
+
 Here is the comparision between OpenCV 3.0 and 4.3 but as stated above this fork usede 4.7. I won't do the comparision between 4.3 and 4.7 because I am lazy (but there was a positive difference in newer version I swear...)
 <table><tr>
 <td>OpenCV 2.4.9</td><td>OpenCV 3.0.0</td><td>OpenCV 3.1.0</td><td>OpenCV 4.3.0</td>
