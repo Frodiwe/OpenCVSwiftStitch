@@ -2,7 +2,7 @@ __OpenCV computer vision with iOS: stitching panoramas__
 
 <img src = "https://github.com/foundry/OpenCVSwiftStitch/blob/meta/meta/example.big.jpg">
 
-Version 5.0 of [OpenCVStitch](http://github.com/foundry/OpenCVStitch) - updated for Swift 5.0  + OpenCV 4.3  
+Version 5.0 of [OpenCVStitch](http://github.com/foundry/OpenCVStitch) - updated for Swift 5.0  + OpenCV 4.7  
 See appropriate branches and tags for Swift 2.x - 4.x
 
 This project was created to a answer a couple of Stack Overflow questions:  
@@ -18,7 +18,7 @@ To run the project you need to install the OpenCV framework using Cocoapods
 
 Assuming you have first [installed CocoaPods](https://guides.cocoapods.org/using/getting-started.html), run 'pod install' in this directory to install OpenCV for the project. From then on, always open the project in XCode from the `SwiftStitch.xcworkspace` file that the pod install creates. 
 
-The podfile will install openCV v4.3.0. 
+The podfile will install openCV v4.7.0. 
 
 
 __Use__  
@@ -29,7 +29,7 @@ The app has almost no user interface. On launch, the stitching code operates on 
 __OpenCVSwiftStitch Versions__   
 [Version 5.1](https://github.com/foundry/OpenCVSwiftStitch/releases/tag/5.1)  
 Swift / Objective-C / C++   
-OpenCV 4.3  
+OpenCV 4.7  
 Modern Swift - async / await  
 Error, exception handling from C++ -> Objective-C -> Swift  
 Tested with XCode 13.2 / Swift 5.0 for iOS 13.0+  
@@ -56,17 +56,16 @@ Tested with XCode 4.5.2 -> 6.3 for iOS 5.1 upwards
 Provides a partial answer to: [Libraries to capture panoramas in iOS 6](http://stackoverflow.com/questions/14062932/libraries-to-capture-panorama-in-ios-6/14064788#14064788) (Stack Overflow)
 
 __OpenCV Versions__   
-_OpenCV 4.3_  
-The podfile installs OpenCV 4.3  
-
-_this version of OpenCVStitch opted to use cocoapods to overcome the [notorious](http://stackoverflow.com/q/13905471/1375695) [installation](http://stackoverflow.com/q/15855894/1375695) [issues](http://stackoverflow.com/a/14186883/1375695) with previous versions of the framework_
+_OpenCV 4.7_
+The original repo used OpenCV 4.3 however there is newer version 4.7 which is used in this fork
+The podfile installs OpenCV 4.7
 
 __XCode 12__  
 
 Project is now updated for Swift 5.0 and XCode 12. For backwards compatibility checkout the 2.0 / 2.1 branches, 3.0 /4.0 releases or refer to the Objective-C version v1.0.
 
 __Comparisons__
-
+Here is the comparision between OpenCV 3.0 and 4.3 but as stated above this fork usede 4.7. I won't do the comparision between 4.3 and 4.7 because I am lazy (but there was a positive difference in newer version I swear...)
 <table><tr>
 <td>OpenCV 2.4.9</td><td>OpenCV 3.0.0</td><td>OpenCV 3.1.0</td><td>OpenCV 4.3.0</td>
 </tr><tr>
