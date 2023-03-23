@@ -1,4 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Frodiwe/OpenCVPodSpec.git'
 
 platform :ios, '9.0'
 
@@ -8,6 +8,6 @@ use_frameworks!
 
 
 target 'SwiftStitch' do
-  pod 'OpenCV', '4.3.0'
+  pod 'OpenCV', '4.7.0'
 end
 
